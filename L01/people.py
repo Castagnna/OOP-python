@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 class People:
     current_year = int(datetime.strftime(datetime.now(), '%Y'))
 
@@ -8,6 +9,11 @@ class People:
         self.age = age
         self.speaking = speaking
         self.eating = eating
+
+    @classmethod
+    def by_birth_year(cls, name, birth_year):
+        age = cls.current_year - birth_year
+        return cls(name, age)
 
     def speak(self, word):
         if self.eating:
@@ -47,5 +53,5 @@ class People:
         print(f'{self.name} stop eating')
         self.eating = False
 
-    def bith_year(self):
+    def get_bith_year(self):
         return self.current_year - self.age
