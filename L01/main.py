@@ -1,4 +1,4 @@
-from L01.people import People
+from people import People
 
 # p1 = People('John', 19)
 # p2 = People('Maria', 13)
@@ -25,3 +25,5 @@ print(p1.get_bith_year())
 
 p2 = People.by_birth_year('Pedro', 2001)
 print(p2.name, p2.age)
+
+print(f'Static method id: {People.create_id()}')

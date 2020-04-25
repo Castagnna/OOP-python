@@ -1,5 +1,5 @@
 from datetime import datetime
-
+from random import randint
 
 class People:
     current_year = int(datetime.strftime(datetime.now(), '%Y'))
@@ -14,6 +14,11 @@ class People:
     def by_birth_year(cls, name, birth_year):
         age = cls.current_year - birth_year
         return cls(name, age)
+
+    @staticmethod
+    def create_id():
+        rand = randint(10000, 19999)
+        return rand
 
     def speak(self, word):
         if self.eating:
