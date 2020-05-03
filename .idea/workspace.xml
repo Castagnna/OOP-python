@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f508b25-c9af-4747-ac25-da69dde5cd43" name="Default Changelist" comment="classes aggregation">
-      <change afterPath="$PROJECT_DIR$/L06/classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L06/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9f508b25-c9af-4747-ac25-da69dde5cd43" name="Default Changelist" comment="classes aggregation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
