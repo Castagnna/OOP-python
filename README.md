@@ -1,2 +1,2 @@
 # OOP-python
-A curse about OOP
+A course about OOP
